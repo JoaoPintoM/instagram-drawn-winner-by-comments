@@ -1,0 +1,13 @@
+{
+  "name": "instagram-winner",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "instagram-web-api": "^2.2.2",
+    "lodash": "^4.17.20",
+    "tough-cookie-filestore2": "^1.0.0",
+    "wait": "^0.4.2"
+  }
+}
