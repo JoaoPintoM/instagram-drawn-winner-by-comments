@@ -6,11 +6,8 @@ var colors = require('colors/safe')
  
 const { username, password } = process.env // Only required when no cookies are stored yet
  
-// const cookieStore = new FileCookieStore('./cookies.json')
-// const client = new Instagram({ username, password, cookieStore })
-
-console.log(username, password)
-const client = new Instagram({ username, password })
+const cookieStore = new FileCookieStore('./cookies.json')
+const client = new Instagram({ username, password, cookieStore })
  
 ;(async () => { 
   await client.login()
