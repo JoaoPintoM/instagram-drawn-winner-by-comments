@@ -17,7 +17,7 @@ const client = new Instagram({ username, password, cookieStore })
   let pointer = ''
   let response = null
 
-  const instagramPost = 'CKrJneOr4Eo' // https://www.instagram.com/p/CKrJneOr4Eo/
+  const instagramPost = 'CM0FU-9LY0C' // https://www.instagram.com/p/CKrJneOr4Eo/
   do {
     response = await client.getMediaComments({ shortcode: instagramPost, first: '49', after: pointer })
     pointer = response.page_info.end_cursor 
